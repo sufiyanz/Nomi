@@ -18,6 +18,27 @@ struct DesignTokens {
     static let springAnimation: Animation = .spring(response: 0.6, dampingFraction: 0.8)
 }
 
+// MARK: - Glass Effect Container
+struct GlassEffectContainer<Content: View>: View {
+    let content: Content
+    let spacing: CGFloat
+    
+    init(spacing: CGFloat = DesignTokens.containerSpacing, @ViewBuilder content: () -> Content) {
+        self.content = content()
+        self.spacing = spacing
+    }
+    
+    var body: some View {
+        content
+            .padding(DesignTokens.cardPadding)
+            .background(.regularMaterial, in: RoundedRectangle(cornerRadius: DesignTokens.cornerRadius))
+            .overlay(
+                RoundedRectangle(cornerRadius: DesignTokens.cornerRadius)
+                    .strokeBorder(Color.glassBorder, lineWidth: 0.5)
+            )
+    }
+}
+
 // MARK: - Adaptive Colors for Light/Dark Mode
 extension Color {
     // Card backgrounds that adapt to light/dark mode

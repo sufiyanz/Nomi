@@ -1,10 +1,3 @@
-//
-//  WeeApp.swift
-//  Wee
-//
-//  Created by Suff Syed on 9/21/25.
-//
-
 import SwiftUI
 import SwiftData
 
@@ -14,6 +7,7 @@ struct WeeApp: App {
         let schema = Schema([
             Item.self,
             Event.self,
+            PrayerTime.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -23,11 +17,31 @@ struct WeeApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
+    
+    @StateObject private var prayerTimesManager = PrayerTimesManager.shared
+    @StateObject private var notificationManager = PrayerNotificationManager.shared
+    @StateObject private var locationManager = LocationManager.shared
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    setupApp()
+                }
         }
         .modelContainer(sharedModelContainer)
+    }
+    
+    private func setupApp() {
+        // Setup notification categories
+        notificationManager.setupNotificationCategories()
+        
+        // Request location permission for prayer times
+        locationManager.requestLocationPermission()
+        
+        // Initialize prayer times system
+        Task {
+            await prayerTimesManager.initialize()
+        }
     }
 }

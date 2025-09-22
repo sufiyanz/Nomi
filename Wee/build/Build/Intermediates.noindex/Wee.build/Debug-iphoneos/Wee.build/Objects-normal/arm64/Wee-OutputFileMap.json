@@ -1,0 +1,199 @@
+{
+  "" : {
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Wee-primary.dia",
+    "emit-module-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Wee-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Wee-primary-emit-module.dia",
+    "pch" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Wee-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Wee-primary.swiftdeps"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/AdhanAudioManager.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanAudioManager.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanAudioManager.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanAudioManager.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanAudioManager.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanAudioManager.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanAudioManager.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanAudioManager.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanAudioManager~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/AdhanView.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanView.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanView.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanView.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanView.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanView.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanView.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanView.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/AdhanView~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/BackgroundView.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/BackgroundView.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/BackgroundView.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/BackgroundView.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/BackgroundView.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/BackgroundView.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/BackgroundView.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/BackgroundView.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/BackgroundView~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/CalendarView.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/CalendarView.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/CalendarView.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/CalendarView.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/CalendarView.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/CalendarView.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/CalendarView.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/CalendarView.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/CalendarView~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/ChoresView.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ChoresView.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ChoresView.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ChoresView.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ChoresView.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ChoresView.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ChoresView.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ChoresView.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ChoresView~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/ContentView.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/DashboardView.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DashboardView.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DashboardView.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DashboardView.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DashboardView.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DashboardView.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DashboardView.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DashboardView.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DashboardView~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/DayTimelineView.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DayTimelineView.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DayTimelineView.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DayTimelineView.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DayTimelineView.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DayTimelineView.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DayTimelineView.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DayTimelineView.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DayTimelineView~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/DesignTokens.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DesignTokens.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DesignTokens.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DesignTokens.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DesignTokens.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DesignTokens.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DesignTokens.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DesignTokens.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/DesignTokens~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/Event.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Event.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Event.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Event.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Event.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Event.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Event.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Event.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Event~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/Item.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Item.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Item.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Item.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Item.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Item.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Item.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Item.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/Item~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/LocationManager.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/LocationManager.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/LocationManager.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/LocationManager.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/LocationManager.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/LocationManager.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/LocationManager.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/LocationManager.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/LocationManager~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/PrayerNotificationManager.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerNotificationManager.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerNotificationManager.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerNotificationManager.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerNotificationManager.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerNotificationManager.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerNotificationManager.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerNotificationManager.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerNotificationManager~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/PrayerTime.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTime.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTime.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTime.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTime.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTime.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTime.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTime.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTime~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/PrayerTimesAPIManager.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesAPIManager.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesAPIManager.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesAPIManager.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesAPIManager.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesAPIManager.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesAPIManager.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesAPIManager.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesAPIManager~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/PrayerTimesManager.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesManager.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesManager.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesManager.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesManager.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesManager.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesManager.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesManager.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/PrayerTimesManager~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/SettingsView.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/Wee/WeeApp.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/WeeApp.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/WeeApp.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/WeeApp.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/WeeApp.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/WeeApp.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/WeeApp.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/WeeApp.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/WeeApp~partial.swiftmodule"
+  },
+  "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/suffsyed/Personal Projects/Wee/build/Build/Intermediates.noindex/Wee.build/Debug-iphoneos/Wee.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

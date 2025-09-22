@@ -1,0 +1,1 @@
+@rpath/Wee.debug.dylib

@@ -6,27 +6,53 @@ struct DashboardView: View {
     @Environment(\.modelContext) private var modelContext
     @State private var selectedDate: Date = Date()
     @State private var events: [Event] = []
+    @StateObject private var prayerTimesManager = PrayerTimesManager.shared
+    @StateObject private var locationManager = LocationManager.shared
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
 
     var body: some View {
         ZStack {
             BackgroundView()
             ScrollView {
                 VStack(spacing: DesignTokens.spacing) {
-                    // Welcome Message - Full width spanning two columns
+                    // Welcome Message - Always on top
                     WelcomeCard(currentTime: now)
                     
-                    // Two-column layout: Prayer + Summary | Schedule
-                    HStack(alignment: .top, spacing: DesignTokens.spacing) {
-                        // Left Column: Prayer Time and Day Summary
+                    // Today's Summary - Always second on iPhone, shown on iPad too
+                    DaySummaryCard(events: dayEvents)
+                    
+                    // Device-specific layout
+                    if isCompactDevice {
+                        // iPhone: Single column, essential cards only
                         VStack(spacing: DesignTokens.spacing) {
                             PrayerTimeCard(currentTime: now)
-                            DaySummaryCard(events: dayEvents)
+                                .environmentObject(prayerTimesManager)
+                            
+                            // Location Display (simplified for iPhone)
+                            if let location = locationManager.currentPrayerLocation {
+                                LocationCard(location: location)
+                            }
                         }
-                        .frame(maxWidth: .infinity)
-                        
-                        // Right Column: Today's Schedule
-                        ScheduleSectionCard(date: selectedDate, events: dayEvents)
-                            .frame(maxWidth: .infinity)
+                    } else {
+                        // iPad: Multi-column layout with all cards
+                        VStack(spacing: DesignTokens.spacing) {
+                            // Location Display
+                            if let location = locationManager.currentPrayerLocation {
+                                LocationCard(location: location)
+                            }
+                            
+                            // Two-column layout: Prayer | Schedule
+                            HStack(alignment: .top, spacing: DesignTokens.spacing) {
+                                // Left Column: Prayer Time
+                                PrayerTimeCard(currentTime: now)
+                                    .environmentObject(prayerTimesManager)
+                                    .frame(maxWidth: .infinity)
+                                
+                                // Right Column: Today's Schedule
+                                ScheduleSectionCard(date: selectedDate, events: dayEvents)
+                                    .frame(maxWidth: .infinity)
+                            }
+                        }
                     }
                 }
                 .padding()
@@ -41,6 +67,10 @@ struct DashboardView: View {
                 print("Failed to fetch events: \(error)")
             }
         }
+    }
+    
+    private var isCompactDevice: Bool {
+        horizontalSizeClass == .compact
     }
     
     private var dayEvents: [Event] {
@@ -141,6 +171,7 @@ struct WelcomeCard: View {
 
 struct PrayerTimeCard: View {
     let currentTime: Date
+    @EnvironmentObject var prayerTimesManager: PrayerTimesManager
     
     var body: some View {
         HStack(spacing: 16) {
@@ -164,13 +195,13 @@ struct PrayerTimeCard: View {
                     Spacer()
                 }
                 
-                Text("Maghrib")
+                Text(currentPrayerName)
                     .font(.title2)
                     .fontWeight(.semibold)
                     .foregroundStyle(Color.textPrimary)
                 
                 HStack {
-                    Text("Next: Isha at 8:45 PM")
+                    Text(nextPrayerText)
                         .font(.subheadline)
                         .foregroundStyle(Color.textSecondary)
                     Spacer()
@@ -186,6 +217,51 @@ struct PrayerTimeCard: View {
             RoundedRectangle(cornerRadius: DesignTokens.cornerRadius)
                 .strokeBorder(Color.glassBorder, lineWidth: 0.5)
         )
+        .onTapGesture {
+            Task {
+                await prayerTimesManager.refreshPrayerTimes()
+            }
+        }
+    }
+    
+    private var currentPrayerName: String {
+        if prayerTimesManager.isLoading {
+            return "Loading..."
+        }
+        
+        if let error = prayerTimesManager.lastError {
+            return "Error: \(error.localizedDescription)"
+        }
+        
+        guard let todayPrayers = prayerTimesManager.todayPrayerTimes else {
+            return "No prayer times available"
+        }
+        
+        let currentPrayer = prayerTimesManager.getCurrentPrayer(for: currentTime, prayerTimes: todayPrayers)
+        return currentPrayer?.name.capitalized ?? "No active prayer"
+    }
+    
+    private var nextPrayerText: String {
+        if prayerTimesManager.isLoading {
+            return "Updating prayer times..."
+        }
+        
+        if let error = prayerTimesManager.lastError {
+            return "Error loading times"
+        }
+        
+        guard let todayPrayers = prayerTimesManager.todayPrayerTimes else {
+            return "Tap to refresh prayer times"
+        }
+        
+        if let nextPrayer = prayerTimesManager.getNextPrayer(for: currentTime, prayerTimes: todayPrayers) {
+            let formatter = DateFormatter()
+            formatter.dateFormat = "h:mm a"
+            let timeString = formatter.string(from: nextPrayer.time)
+            return "Next: \(nextPrayer.name.capitalized) at \(timeString)"
+        } else {
+            return "No upcoming prayers today"
+        }
     }
 }
 
@@ -335,6 +411,72 @@ struct ScheduleSectionCard: View {
             RoundedRectangle(cornerRadius: DesignTokens.cornerRadius)
                 .strokeBorder(Color.glassBorder, lineWidth: 0.5)
         )
+    }
+}
+
+struct LocationCard: View {
+    let location: PrayerLocation
+    
+    var body: some View {
+        HStack(spacing: 16) {
+            VStack(spacing: 8) {
+                Image(systemName: "location.fill")
+                    .font(.title2)
+                    .foregroundStyle(Color.blue)
+                
+                Text("Location")
+                    .font(.caption)
+                    .foregroundStyle(Color.textSecondary)
+                    .textCase(.uppercase)
+                    .tracking(0.5)
+            }
+            
+            VStack(alignment: .leading, spacing: 4) {
+                HStack {
+                    Text(locationText)
+                        .font(.subheadline)
+                        .fontWeight(.medium)
+                        .foregroundStyle(Color.textPrimary)
+                    Spacer()
+                }
+                
+                Text(coordinatesText)
+                    .font(.caption)
+                    .foregroundStyle(Color.textSecondary)
+            }
+            
+            Spacer()
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(16)
+        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: DesignTokens.cornerRadius))
+        .overlay(
+            RoundedRectangle(cornerRadius: DesignTokens.cornerRadius)
+                .strokeBorder(Color.glassBorder, lineWidth: 0.5)
+        )
+    }
+    
+    private var locationText: String {
+        var parts: [String] = []
+        
+        if let city = location.city {
+            parts.append(city)
+        }
+        if let country = location.country {
+            parts.append(country)
+        }
+        
+        if parts.isEmpty {
+            return "Current Location"
+        }
+        
+        return parts.joined(separator: ", ")
+    }
+    
+    private var coordinatesText: String {
+        let lat = String(format: "%.4f", location.latitude)
+        let lon = String(format: "%.4f", location.longitude)
+        return "\(lat), \(lon)"
     }
 }
 

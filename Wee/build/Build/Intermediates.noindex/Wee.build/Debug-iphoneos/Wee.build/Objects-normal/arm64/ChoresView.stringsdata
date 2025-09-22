@@ -1,0 +1,24 @@
+{
+  "source": "/Users/suffsyed/Personal Projects/Wee/Wee/ChoresView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Chores",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Chore #%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 12
+        }
+      }
+    ]
+  },
+  "version": 1
+}
