@@ -1,0 +1,16 @@
+# Secrets
+Secrets.plist
+Nomi/Secrets.plist
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xcworkspacedata
+DerivedData/
+.build/
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.swiftpm/
