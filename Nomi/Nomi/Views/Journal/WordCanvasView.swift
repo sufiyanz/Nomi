@@ -135,11 +135,20 @@ struct DraggableStickerView: View {
             }
             .shadow(color: .black.opacity(isDragging ? 0.25 : 0.1), radius: isDragging ? 8 : 4, y: isDragging ? 4 : 2)
             
-            // Word label
-            Text(word.targetWord)
-                .font(.system(size: max(10 * scale, 8), weight: .semibold, design: .rounded))
-                .foregroundColor(.nomiTextDark)
-                .lineLimit(1)
+            // Word labels
+            VStack(spacing: 2 * scale) {
+                // Target language word
+                Text(word.targetWord)
+                    .font(.system(size: max(10 * scale, 8), weight: .semibold, design: .rounded))
+                    .foregroundColor(.nomiTextDark)
+                    .lineLimit(1)
+                
+                // English translation
+                Text(word.englishWord)
+                    .font(.system(size: max(8 * scale, 6), weight: .regular, design: .rounded))
+                    .foregroundColor(.nomiTextDark.opacity(0.6))
+                    .lineLimit(1)
+            }
         }
         .scaleEffect(isDragging ? 1.15 : 1.0)
         .offset(dragOffset)

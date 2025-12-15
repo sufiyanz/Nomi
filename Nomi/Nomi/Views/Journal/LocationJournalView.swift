@@ -15,7 +15,6 @@ struct LocationJournalView: View {
     let location: Location
     
     @State private var showRevisionSession = false
-    @State private var selectedJournalSticker: StickerWord?
     @State private var canvasWords: [CanvasWord] = []
     @State private var journalSheetDetent: PresentationDetent = .height(100)
     @State private var showJournalSheet = false
@@ -90,16 +89,10 @@ struct LocationJournalView: View {
         .fullScreenCover(isPresented: $showRevisionSession) {
             RevisionSessionView(location: location)
         }
-        .sheet(item: $selectedJournalSticker) { sticker in
-            StickerDetailView(stickerWord: sticker)
-        }
         .sheet(isPresented: $showJournalSheet) {
             JournalSheetView(
                 collectedWords: collectedWords,
-                location: location,
-                onSelectSticker: { sticker in
-                    selectedJournalSticker = sticker
-                }
+                location: location
             )
             .presentationDetents([.height(56), .medium, .large])
             .presentationDragIndicator(.visible)
@@ -185,7 +178,8 @@ struct LocationJournalView: View {
 struct JournalSheetView: View {
     let collectedWords: [StickerWord]
     let location: Location
-    let onSelectSticker: (StickerWord) -> Void
+    
+    @State private var selectedSticker: StickerWord?
     
     var body: some View {
         VStack(spacing: 0) {
@@ -232,7 +226,7 @@ struct JournalSheetView: View {
                     LazyVStack(spacing: NomiSpacing.small) {
                         ForEach(collectedWords) { sticker in
                             JournalWordRow(sticker: sticker) {
-                                onSelectSticker(sticker)
+                                selectedSticker = sticker
                             }
                         }
                     }
@@ -242,6 +236,9 @@ struct JournalSheetView: View {
             }
         }
         .background(Color.nomiCardBackground)
+        .fullScreenCover(item: $selectedSticker) { sticker in
+            StickerDetailView(stickerWord: sticker)
+        }
     }
 }
 
